@@ -74,6 +74,7 @@ Package as a local app (optional)
 
 Run the executable from:
 app/build/install/app/bin
+```
 
 ![Dashboard](screenshots/dashboard.png)
 ![Recurring](screenshots/recurring.png)
