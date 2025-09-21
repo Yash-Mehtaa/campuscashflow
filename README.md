@@ -1,4 +1,4 @@
-# CampusCashflow — Student Budget & “Can I Buy It?” Desktop App
+# CampusCashflow — Budget & “Can I Buy It?” Desktop App
 
 > Moving to a new country is exciting, but as an international student in the U.S. I quickly learned that managing money each month was harder than I imagined. Tuition bills, rent, groceries, weekend plans, everything came at once, and knowing how much I could safely spend was a constant guessing game. Talking with friends showed me I wasn’t alone: most students were juggling spreadsheets, bank apps, and mental math just to figure out their balance.  
 >
