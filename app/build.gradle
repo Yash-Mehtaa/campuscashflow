@@ -1,0 +1,21 @@
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.1.0'
+}
+
+repositories { mavenCentral() }
+
+dependencies {
+    implementation 'org.xerial:sqlite-jdbc:3.46.0.0'
+}
+
+application { mainClass = 'com.yash.campuscashflow.Main' }
+
+javafx {
+    version = '21.0.3'
+    modules = [ 'javafx.controls' ]
+}
+
+java {
+    toolchain { languageVersion = JavaLanguageVersion.of(21) }
+}
