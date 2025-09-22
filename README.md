@@ -22,27 +22,49 @@ CampusCashflow helps you:
 
 campuscashflow/
 ├─ settings.gradle
+
 ├─ gradlew
+
 ├─ gradlew.bat
+
 ├─ gradle/
+
 │  └─ wrapper/
+
 │     ├─ gradle-wrapper.jar
+
 │     └─ gradle-wrapper.properties
+
 └─ app/
+
    ├─ build.gradle
+   
    └─ src/main/
+   
       ├─ resources/
+      
       │  └─ schema.sql
+      
       └─ java/com/yash/campuscashflow/
+      
          ├─ Main.java
+         
          ├─ DashboardView.java
+         
          ├─ RecurringView.java
+         
          ├─ TransactionsView.java
+         
          ├─ Db.java
+         
          ├─ BudgetDao.java
+         
          ├─ RecurringDao.java
+         
          ├─ TxDao.java
+         
          ├─ Money.java
+         
          └─ AppBus.java
 
 
