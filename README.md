@@ -22,23 +22,28 @@ CampusCashflow helps you:
 
 campuscashflow/
 ├─ settings.gradle
-├─ gradlew / gradlew.bat / gradle-wrapper
+├─ gradlew
+├─ gradlew.bat
+├─ gradle/
+│  └─ wrapper/
+│     ├─ gradle-wrapper.jar
+│     └─ gradle-wrapper.properties
 └─ app/
-├─ build.gradle
-└─ src/main/
-├─ resources/
-│ └─ schema.sql
-└─ java/com/yash/campuscashflow/
-├─ Main.java
-├─ DashboardView.java
-├─ RecurringView.java
-├─ TransactionsView.java
-├─ Db.java
-├─ BudgetDao.java
-├─ RecurringDao.java
-├─ TxDao.java
-├─ Money.java
-└─ AppBus.java
+   ├─ build.gradle
+   └─ src/main/
+      ├─ resources/
+      │  └─ schema.sql
+      └─ java/com/yash/campuscashflow/
+         ├─ Main.java
+         ├─ DashboardView.java
+         ├─ RecurringView.java
+         ├─ TransactionsView.java
+         ├─ Db.java
+         ├─ BudgetDao.java
+         ├─ RecurringDao.java
+         ├─ TxDao.java
+         ├─ Money.java
+         └─ AppBus.java
 
 
 When you first run the app, a local SQLite file named **`campus.db`** is created automatically.
