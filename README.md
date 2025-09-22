@@ -91,35 +91,31 @@ Remaining =
   + (IncomeFromTransactions − ExpensesFromTransactions)
 
 
-Amounts:
+Amounts
 
 Positive = income
-
 Negative = expense
-
-Frequency conversion to monthly:
-
+Frequency conversion to monthly
 Yearly ÷ 12
-
 Monthly × 1
-
 Weekly × 52 ÷ 12
-
 Biweekly × 26 ÷ 12
-
 Daily × 365 ÷ 12
+
 
 🛠️ Troubleshooting
 
-If you see an error about JavaFX modules, always run the app via Gradle (./gradlew :app:run).
+If you see an error about JavaFX modules, always run via Gradle: ./gradlew :app:run.
 
 If you get a schema error about “transaction”, make sure your schema.sql uses the tx table name.
 
-If the dashboard number doesn’t refresh, check that AppBus.notifyDataChanged() is being called after edits.
+If the dashboard number doesn’t refresh, check that AppBus.notifyDataChanged() is called after edits.
+
 
 🧱 Tech Stack
 
 Java 21 • JavaFX • SQLite (sqlite-jdbc) • Gradle
+
 
 🗺️ Roadmap
 
@@ -134,5 +130,5 @@ Month switcher for past data
 Dark mode
 
 
-Thank you for reading!
+Thanks for reading!
 
