@@ -95,12 +95,19 @@ Remaining =
 Amounts
 
 Positive = income
+
 Negative = expense
+
 Frequency conversion to monthly
+
 Yearly ÷ 12
+
 Monthly × 1
+
 Weekly × 52 ÷ 12
+
 Biweekly × 26 ÷ 12
+
 Daily × 365 ÷ 12
 
 
