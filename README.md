@@ -23,6 +23,25 @@ CampusCashflow helps you:
 - macOS, Windows or Linux  
 - Internet is needed only for the first Gradle build
 
+## 📂 Project Structure
+```
+CampusCashflow/
+├── app/
+│   ├── build.gradle
+│   ├── src/
+│   │   └── main/
+│   │       ├── java/com/yash/campuscashflow/   # JavaFX sources
+│   │       └── resources/                      # FXML, CSS, icons
+│   └── build/                                  # Gradle build output
+├── gradle/
+│   └── wrapper/                                # Gradle wrapper files
+├── screenshots/                                # README images
+├── settings.gradle
+├── build.gradle
+└── README.md
+```
+---
+
 ### Build and Run
 
 ```bash
