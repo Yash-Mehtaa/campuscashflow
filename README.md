@@ -91,6 +91,7 @@ Remaining =
   + (IncomeFromTransactions − ExpensesFromTransactions)
 
 
+
 Amounts
 
 Positive = income
@@ -103,6 +104,7 @@ Biweekly × 26 ÷ 12
 Daily × 365 ÷ 12
 
 
+
 🛠️ Troubleshooting
 
 If you see an error about JavaFX modules, always run via Gradle: ./gradlew :app:run.
@@ -112,22 +114,10 @@ If you get a schema error about “transaction”, make sure your schema.sql use
 If the dashboard number doesn’t refresh, check that AppBus.notifyDataChanged() is called after edits.
 
 
+
 🧱 Tech Stack
 
 Java 21 • JavaFX • SQLite (sqlite-jdbc) • Gradle
-
-
-🗺️ Roadmap
-
-CSV import for bank data
-
-Per-category budgets and charts
-
-3–6 month cash-flow forecast from recurring items
-
-Month switcher for past data
-
-Dark mode
 
 
 Thanks for reading!
