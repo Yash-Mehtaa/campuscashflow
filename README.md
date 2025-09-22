@@ -70,52 +70,47 @@ app/build/install/app/bin
 ![Recurring](screenshots/recurring.png)
 ![Transactions](screenshots/transactions.png)
 
-🧮 How the calculation works
+---
 
-Every month the app computes:
+## 🧮 Calculation Logic
 
-Remaining =
-  BudgetCap
-  − TotalRecurringExpenses
-  + TotalRecurringIncome
-  + (IncomeFromTransactions − ExpensesFromTransactions)
+Every month, CampusCashflow calculates your **Remaining Balance** as:
 
+```
+Remaining = BudgetCap
+          − TotalRecurringExpenses
+          + TotalRecurringIncome
+          + (IncomeFromTransactions − ExpensesFromTransactions)
+```
 
+### Amounts
+- **Positive** numbers = income  
+- **Negative** numbers = expenses  
 
-Amounts
+### Frequency Conversion (to monthly)
+| Frequency | Formula |
+|-----------|---------|
+| Yearly    | ÷ 12 |
+| Monthly   | × 1 |
+| Weekly    | × 52 ÷ 12 |
+| Biweekly  | × 26 ÷ 12 |
+| Daily     | × 365 ÷ 12 |
 
-Positive = income
+---
 
-Negative = expense
+## 🛠️ Troubleshooting
+- If you see an error about JavaFX modules, always run the app via Gradle:
+  ```bash
+  ./gradlew :app:run
+  ```
+- If you get a schema error about **transaction**, check that your `schema.sql` uses the `tx` table name.  
+- If the dashboard number doesn’t refresh, make sure `AppBus.notifyDataChanged()` is called after edits.
 
-Frequency conversion to monthly
+---
 
-Yearly ÷ 12
+## 🧱 Tech Stack
+Java 21 • JavaFX • SQLite (`sqlite-jdbc`) • Gradle
 
-Monthly × 1
-
-Weekly × 52 ÷ 12
-
-Biweekly × 26 ÷ 12
-
-Daily × 365 ÷ 12
-
-
-
-🛠️ Troubleshooting
-
-If you see an error about JavaFX modules, always run via Gradle: ./gradlew :app:run.
-
-If you get a schema error about “transaction”, make sure your schema.sql uses the tx table name.
-
-If the dashboard number doesn’t refresh, check that AppBus.notifyDataChanged() is called after edits.
-
-
-
-🧱 Tech Stack
-
-Java 21 • JavaFX • SQLite (sqlite-jdbc) • Gradle
-
+---
 
 Thanks for reading!
-
