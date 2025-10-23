@@ -1,0 +1,23 @@
+PRAGMA foreign_keys = ON;
+
+CREATE TABLE IF NOT EXISTS budget (
+  id INTEGER PRIMARY KEY,
+  month TEXT NOT NULL,             -- YYYY-MM
+  cap_cents INTEGER NOT NULL,
+  UNIQUE(month) ON CONFLICT REPLACE
+);
+
+CREATE TABLE IF NOT EXISTS recurring (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT NOT NULL,
+  kind TEXT NOT NULL CHECK(kind IN ('income', 'expense')),
+  amount_cents INTEGER NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS tx (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  date TEXT NOT NULL,
+  description TEXT,
+  amount_cents INTEGER NOT NULL
+);
+
