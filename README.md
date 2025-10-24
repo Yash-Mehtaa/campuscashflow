@@ -1,15 +1,15 @@
-# 💸 CampusCashflow — Smart Budgeting for Students and Everyday Users  
+# 💸 CampusCashflow : Smart Budgeting for Students and Everyday Users  
 
 > A minimal, all-in-one desktop finance tracker built for clarity, speed, and simplicity.  
-> Designed and developed by [**Yash Kunal Mehta**](https://github.com/Yash-Mehtaa) — Computer Science & Finance student at Rutgers University–New Brunswick.
+> Designed and developed by [**Yash Kunal Mehta**](https://github.com/Yash-Mehtaa) : Computer Science & Finance student at Rutgers University–New Brunswick.
 
 ---
 
 ## 🌍 Story  
 
-Moving to a new country is exciting — but managing monthly expenses can quickly become overwhelming. Between tuition, rent, groceries, and weekend plans, I kept asking the same question: **“Can I actually afford this?”**  
+Moving to a new country is exciting, but managing monthly expenses can quickly become overwhelming. Between tuition, rent, groceries, and weekend plans, I kept asking the same question: **“Can I actually afford this?”**  
 
-That frustration sparked **CampusCashflow** — a lightweight JavaFX desktop app that turns your entire budget into one clean, real-time number: *your remaining balance for the month.*  
+That frustration sparked **CampusCashflow** : a lightweight JavaFX desktop app that turns your entire budget into one clean, real-time number: *your remaining balance for the month.*  
 
 The app started as a small student budgeting tool and evolved into a general-purpose finance manager that’s now simple enough for students yet robust enough for professionals.
 
@@ -89,7 +89,7 @@ CampusCashflow focuses on clarity over complexity — showing just what you need
 
 ⭐ **Thank you for reading and supporting CampusCashflow!**
 
-If you found it helpful, consider starring the repo — it helps others discover it too.
+If you found it helpful, consider starring the repo , it helps others discover it too:)
 
 ---
 
