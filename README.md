@@ -18,8 +18,8 @@ The app started as a small student budgeting tool and evolved into a general-pur
 ## 🚀 Core Features  
 ✅ Live “Remaining Balance” overview  
 ✅ Add, edit, and delete one-time or recurring transactions  
-✅ Category-wise transaction tracking and charts  
-✅ Offline-first design — uses local **SQLite** database (no cloud or login)  
+✅ Category-wise transaction tracking.
+✅ Offline-first design: uses local **SQLite** database (no cloud or login)  
 ✅ Platform: currently runs on macOS Apple Silicon [windows and linux coming soon]
 
 ---
