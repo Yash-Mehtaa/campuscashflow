@@ -74,9 +74,9 @@ campuscashflow/
  ├── run.sh
  ├── CampusCashflow.jar
  └── screenshots/
-💡 Inspiration
 
 ```
+
 
 Finance shouldn’t feel intimidating.  
 CampusCashflow focuses on clarity over complexity , showing just what you need to know right now, without graphs that make you feel guilty for buying coffee.
