@@ -83,12 +83,11 @@ CampusCashflow focuses on clarity over complexity — showing just what you need
 Yash Kunal Mehta
 �� Rutgers University–New Brunswick
 💼 Building projects at the intersection of Computer Science × Finance
-🔗 GitHub
- • LinkedIn
 
 ---
 
 ⭐ **Thank you for reading and supporting CampusCashflow!**
+
 If you found it helpful, consider starring the repo — it helps others discover it too.
 
 ---
