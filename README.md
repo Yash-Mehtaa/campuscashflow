@@ -1,4 +1,4 @@
-# CampusCashflow — Student Budget & “Can I Buy It?” Desktop App
+# 💸 CampusCashflow — Student Budget & “Can I Buy It?” App
 
 > Moving to a new country is exciting, but as an international student in the U.S. I quickly learned that managing money each month was harder than I imagined. Tuition bills, rent, groceries, weekend plans, everything came at once, and knowing how much I could safely spend was a constant guessing game. Talking with friends showed me I wasn’t alone: most students were juggling spreadsheets, bank apps, and mental math just to figure out their balance.  
 >
@@ -6,131 +6,24 @@
 
 ---
 
-## ✨ Features
-
-CampusCashflow helps you:
-
-- Set a monthly **Budget Cap**  
-- Add **recurring expenses and income** (tuition, rent, jobs, scholarships) with yearly, monthly, weekly, biweekly or daily frequency (auto-converted to monthly)  
-- Log **daily transactions** and instantly see how they affect your balance  
-- See a large, live number — “Remaining this month” — update as you add or delete data  
-- Use a **“Should I buy it?”** field to test purchases against your remaining balance
+## 🚀 Features
+- Monthly budget tracking and live “remaining balance” updates  
+- Separate tabs for transactions, recurring payments, and dashboards  
+- SQLite local database (no internet needed)  
+- Auto-loads previous month’s data for continuity  
+- Simple, minimal, and fast JavaFX interface  
 
 ---
 
-## 📦 Project Structure
+## 📦 Releases
 
-campuscashflow/
-├─ settings.gradle
-├─ gradlew / gradlew.bat / gradle-wrapper
-└─ app/
-├─ build.gradle
-└─ src/main/
-├─ resources/
-│ └─ schema.sql
-└─ java/com/yash/campuscashflow/
-├─ Main.java
-├─ DashboardView.java
-├─ RecurringView.java
-├─ TransactionsView.java
-├─ Db.java
-├─ BudgetDao.java
-├─ RecurringDao.java
-├─ TxDao.java
-├─ Money.java
-└─ AppBus.java
+Each `.dmg` is built with all dependencies bundled — just drag it into **Applications** and start using.  
+This version is **fully compatible with Apple Silicon (M-series Macs)**.
 
-
-When you first run the app, a local SQLite file named **`campus.db`** is created automatically.
+If you get a macOS warning that the app is **“not recognized”** or **“can’t be opened because it’s from an unidentified developer”**, follow these quick steps:  
+> **System Settings → Privacy & Security → scroll all the way down → click “Open Anyway.”**  
+✅ After that, it will launch normally every time.
 
 ---
 
-## 🚀 Quickstart
-
-### Requirements
-- Java 21 (Temurin, Oracle or OpenJDK)  
-- macOS, Windows or Linux  
-- Internet is needed only for the first Gradle build
-
-### Build and Run
-
-```bash
-# from the project root
-./gradlew :app:run       # macOS / Linux
-# Windows:
-gradlew.bat :app:run
-
-1.Open the Dashboard and set a budget cap (e.g., 1000).
-
-2.Go to Recurring and add Tuition (Yearly 12000), Rent (Monthly 800), Campus Job (Weekly 200).
-
-3.Open Transactions and add groceries -45.50, movie -18, side gig +60.
-
-4.Watch the Remaining this month figure update instantly.
-
-Package as a local app (optional)
-./gradlew :app:installDist
-
-
-Run the executable from:
-app/build/install/app/bin
-
-![Dashboard](screenshots/dashboard.png)
-![Recurring](screenshots/recurring.png)
-![Transactions](screenshots/transactions.png)
-
-🧮 How the calculation works
-
-Every month the app computes:
-
-Remaining =
-  BudgetCap
-  − TotalRecurringExpenses
-  + TotalRecurringIncome
-  + (IncomeFromTransactions − ExpensesFromTransactions)
-
-
-Amounts:
-
-Positive = income
-
-Negative = expense
-
-Frequency conversion to monthly:
-
-Yearly ÷ 12
-
-Monthly × 1
-
-Weekly × 52 ÷ 12
-
-Biweekly × 26 ÷ 12
-
-Daily × 365 ÷ 12
-
-🛠️ Troubleshooting
-
-If you see an error about JavaFX modules, always run the app via Gradle (./gradlew :app:run).
-
-If you get a schema error about “transaction”, make sure your schema.sql uses the tx table name.
-
-If the dashboard number doesn’t refresh, check that AppBus.notifyDataChanged() is being called after edits.
-
-🧱 Tech Stack
-
-Java 21 • JavaFX • SQLite (sqlite-jdbc) • Gradle
-
-🗺️ Roadmap
-
-CSV import for bank data
-
-Per-category budgets and charts
-
-3–6 month cash-flow forecast from recurring items
-
-Month switcher for past data
-
-Dark mode
-
-
-Thank you for reading!!!
+⭐ **Thank you for reading and supporting CampusCashflow!**
