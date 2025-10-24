@@ -21,7 +21,7 @@ The app started as a small student budgeting tool and evolved into a general-pur
 ✅ Automatic monthly rollover of data  
 ✅ Category-wise transaction tracking and charts  
 ✅ Offline-first design — uses local **SQLite** database (no cloud or login)  
-✅ Fully cross-platform: runs on macOS Apple Silicon 
+✅ Platform: runs on macOS Apple Silicon 
 
 ---
 
