@@ -54,11 +54,6 @@ If you get a macOS warning that the app is **“not recognized”** or **“can�
 > **System Settings → Privacy & Security → scroll all the way down → click “Open Anyway.”**  
 ✅ After that, it will launch normally every time.
 
----
-
-⭐ **Thank you for reading and supporting CampusCashflow!**
-
----
 
 ## 🧭 Project Structure  
 
@@ -91,5 +86,10 @@ Yash Kunal Mehta
 🔗 GitHub
  • LinkedIn
 
-⭐ Thank you for supporting CampusCashflow!
+---
+
+⭐ **Thank you for reading and supporting CampusCashflow!**
 If you found it helpful, consider starring the repo — it helps others discover it too.
+
+---
+
