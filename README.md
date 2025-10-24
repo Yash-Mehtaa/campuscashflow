@@ -78,11 +78,12 @@ campuscashflow/
 Finance shouldn’t feel intimidating.  
 CampusCashflow focuses on clarity over complexity — showing just what you need to know right now, without graphs that make you feel guilty for buying coffee.
 
-👨‍💻 Author
+## 👨‍💻 Author  
+**Yash Kunal Mehta**  
+📍 Rutgers University–New Brunswick  
+💼 Building projects at the intersection of Computer Science × Finance  
+🔗 [GitHub](https://github.com/Yash-Mehtaa) • [LinkedIn](https://www.linkedin.com/in/yashkmehta)
 
-Yash Kunal Mehta
-Rutgers University–New Brunswick
-Building projects at the intersection of Computer Science × Finance
 
 ---
 
