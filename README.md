@@ -46,7 +46,7 @@ The app started as a small student budgeting tool and evolved into a general-pur
 
 ## 📦 Releases  
 
-Each `.dmg` is built with all dependencies bundled — just drag it into **Applications** and start using.  
+The `.dmg` is built with all dependencies bundled — just drag it into **Applications** and start using.  
 This version is **fully compatible with Apple Silicon (M-series Macs)**.
 
 If you get a macOS warning that the app is **“not recognized”** or **“can’t be opened because it’s from an unidentified developer”**, follow these quick steps:  
