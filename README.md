@@ -76,7 +76,7 @@ campuscashflow/
 ```
 
 Finance shouldn’t feel intimidating.  
-CampusCashflow focuses on clarity over complexity — showing just what you need to know right now, without graphs that make you feel guilty for buying coffee.
+CampusCashflow focuses on clarity over complexity , showing just what you need to know right now, without graphs that make you feel guilty for buying coffee.
 
 ## 👨‍💻 Author  
 **Yash Kunal Mehta**  
