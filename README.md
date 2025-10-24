@@ -29,7 +29,7 @@ The app started as a small student budgeting tool and evolved into a general-pur
 
 | Dashboard View | Transaction Log | Recurring Payments |
 |-----------------|-----------------|--------------------|
-| ![Dashboard](./screenshots/dashboard.png) | ![Transactions](./screenshots/transactions.png) | ![Recurring](./screenshots/recurring.png) |
+| ![Dashboard](screenshots/dashboard.png) | ![Transactions](screenshots/transactions.png) | ![Recurring](screenshots/recurring.png) |
 
 > 📸 These screenshots show the JavaFX interface in action — responsive, minimal, and fast.  
 
