@@ -29,7 +29,7 @@ The app started as a small student budgeting tool and evolved into a general-pur
 
 | Dashboard View | Transaction Log | Recurring Payments |
 |-----------------|-----------------|--------------------|
-| ![Dashboard](screenshots/dashboard.png) | ![Transactions](screenshots/transactions.png) | ![Recurring](screenshots/recurring.png) |
+| ![Dashboard](./screenshots/dashboard.png) | ![Transactions](./screenshots/transactions.png) | ![Recurring](./screenshots/recurring.png) |
 
 > 📸 These screenshots show the JavaFX interface in action — responsive, minimal, and fast.  
 
@@ -60,39 +60,34 @@ If you get a macOS warning that the app is **“not recognized”** or **“can�
 
 ---
 
-## 🧭 Project Structure
+## 🧭 Project Structure  
+
+```plaintext
 campuscashflow/
-├── src/com/yash/campuscashflow/
-│ ├── AppBus.java
-│ ├── DashboardView.java
-│ ├── TransactionsView.java
-│ ├── RecurringView.java
-│ ├── Db.java
-│ ├── BudgetDao.java
-│ └── schema.sql
-├── campus.db
-├── run.sh
-├── CampusCashflow.jar
-└── screenshots/
+ ├── src/com/yash/campuscashflow/
+ │     ├── AppBus.java
+ │     ├── DashboardView.java
+ │     ├── TransactionsView.java
+ │     ├── RecurringView.java
+ │     ├── Db.java
+ │     ├── BudgetDao.java
+ │     └── schema.sql
+ ├── campus.db
+ ├── run.sh
+ ├── CampusCashflow.jar
+ └── screenshots/
+💡 Inspiration
 
-yaml
-Copy code
+Finance shouldn’t feel intimidating.
+CampusCashflow focuses on clarity over complexity — showing just what you need to know right now, without graphs that make you feel guilty for buying coffee.
 
----
+👨‍💻 Author
 
-## 💡 Inspiration  
-Finance shouldn’t feel intimidating.  
-CampusCashflow focuses on **clarity over complexity** — showing just what you need to know right now, without graphs that make you feel guilty for buying coffee.
+Yash Kunal Mehta
+�� Rutgers University–New Brunswick
+💼 Building projects at the intersection of Computer Science × Finance
+🔗 GitHub
+ • LinkedIn
 
----
-
-## 🧑‍💻 Author  
-**Yash Kunal Mehta**  
-📍 Rutgers University–New Brunswick  
-💼 Building projects at the intersection of Computer Science × Finance  
-🔗 [GitHub](https://github.com/Yash-Mehtaa) • [LinkedIn](https://www.linkedin.com/in/yashkmehta)
-
----
-
-⭐ **Thank you for supporting CampusCashflow!**  
+⭐ Thank you for supporting CampusCashflow!
 If you found it helpful, consider starring the repo — it helps others discover it too.
