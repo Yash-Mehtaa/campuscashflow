@@ -26,7 +26,7 @@ The app started as a small student budgeting tool and evolved into a general-pur
 
 ✅ Platform: currently runs on macOS Apple Silicon [windows and linux coming soon]
 
-AI intgeration modules (coming soon!)
+✅ AI intgeration modules (coming soon!)
 
 ---
 
