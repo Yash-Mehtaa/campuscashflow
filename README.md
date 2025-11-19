@@ -1,4 +1,4 @@
-# 💸 CampusCashflow : Smart Budgeting for Students and Everyday Users  
+# 💸 BudgetInsight : Smart Budgeting for Students and Everyday Users  
 
 > A minimal, all-in-one desktop finance tracker built for clarity, speed, and simplicity.  
 > Designed and developed by [**Yash Kunal Mehta**](https://github.com/Yash-Mehtaa) : Computer Science & Finance student at Rutgers University–New Brunswick.
