@@ -69,8 +69,8 @@ If you get a macOS warning that the app is **“not recognized”** or **“can�
 ## 🧭 Project Structure  
 
 ```plaintext
-budgetinsight/
- ├── src/com/yash/budgetinsight/
+campuscashflow/
+ ├── src/com/yash/campuscashflow/
  │     ├── AppBus.java
  │     ├── DashboardView.java
  │     ├── TransactionsView.java
