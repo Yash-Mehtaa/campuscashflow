@@ -2,7 +2,7 @@
 
 > A minimal, all-in-one desktop finance tracker built for clarity, speed, and simplicity.  
 > Designed and developed by [**Yash Kunal Mehta**](https://github.com/Yash-Mehtaa) : Computer Science & Finance student at Rutgers University–New Brunswick.
-> 📥 **Download (macOS .dmg):** [BudgetInsight v1.1](https://github.com/Yash-Mehtaa/budgetinsight/releases)
+>  **Download (macOS .dmg):** [BudgetInsight v1.1](https://github.com/Yash-Mehtaa/budgetinsight/releases)
 
 ---
 
