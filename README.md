@@ -28,7 +28,7 @@ The app started as a small student budgeting tool and evolved into a general-pur
 
 ✅ AI intgeration modules (coming soon!)
 
-✅ Dark mode coming soon
+✅ Dark mode(coming soon!)
 ---
 
 ## 🖼️ Screenshots  
