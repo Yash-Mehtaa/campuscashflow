@@ -78,9 +78,9 @@ campuscashflow/
  │     ├── Db.java
  │     ├── BudgetDao.java
  │     └── schema.sql
- ├── budget.db
+ ├── campus.db
  ├── run.sh
- ├── budgetinsight.jar
+ ├── campuscashflow.jar
  └── screenshots/
 
 ```
