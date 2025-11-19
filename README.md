@@ -68,8 +68,8 @@ If you get a macOS warning that the app is **“not recognized”** or **“can�
 ## 🧭 Project Structure  
 
 ```plaintext
-campuscashflow/
- ├── src/com/yash/campuscashflow/
+budgetinsight/
+ ├── src/com/yash/budgetinsight/
  │     ├── AppBus.java
  │     ├── DashboardView.java
  │     ├── TransactionsView.java
@@ -77,16 +77,16 @@ campuscashflow/
  │     ├── Db.java
  │     ├── BudgetDao.java
  │     └── schema.sql
- ├── campus.db
+ ├── budget.db
  ├── run.sh
- ├── CampusCashflow.jar
+ ├── budgetinsight.jar
  └── screenshots/
 
 ```
 
 
 Finance shouldn’t feel intimidating.  
-CampusCashflow focuses on clarity over complexity , showing just what you need to know right now, without graphs that make you feel guilty for buying coffee.
+BudgetInsight focuses on clarity over complexity , showing just what you need to know right now, without graphs that make you feel guilty for buying coffee.
 
 ## 👨‍💻 Author  
 **Yash Kunal Mehta**  
@@ -97,7 +97,7 @@ CampusCashflow focuses on clarity over complexity , showing just what you need t
 
 ---
 
-⭐ **Thank you for reading and supporting CampusCashflow!**
+⭐ **Thank you for reading and supporting BudgetInsight!**
 
 If you found it helpful, consider starring the repo , it helps others discover it too:)
 
