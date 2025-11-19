@@ -9,7 +9,7 @@
 
 Moving to a new country is exciting, but managing monthly expenses can quickly become overwhelming. Between tuition, rent, groceries, and weekend plans, I kept asking the same question: **“Can I actually afford this?”**  
 
-That frustration sparked **CampusCashflow** : a lightweight JavaFX desktop app that turns your entire budget into one clean, real-time number: *your remaining balance for the month.*  
+That frustration sparked **BudgetInsight** : a lightweight JavaFX desktop app that turns your entire budget into one clean, real-time number: *your remaining balance for the month.*  
 
 The app started as a small student budgeting tool and evolved into a general-purpose finance manager that’s now simple enough for students yet robust enough for professionals.
 
