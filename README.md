@@ -2,6 +2,7 @@
 
 > A minimal, all-in-one desktop finance tracker built for clarity, speed, and simplicity.  
 > Designed and developed by [**Yash Kunal Mehta**](https://github.com/Yash-Mehtaa) : Computer Science & Finance student at Rutgers University–New Brunswick.
+> 📥 **Download (macOS .dmg):** [BudgetInsight v1.1](https://github.com/Yash-Mehtaa/budgetinsight/releases)
 
 ---
 
@@ -26,7 +27,7 @@ The app started as a small student budgeting tool and evolved into a general-pur
 
 ✅ Platform: currently runs on macOS Apple Silicon [windows and linux coming soon]
 
-## 🚀 Coming Soon
+## 🎯 Coming Soon
 
 ✅ ML-powered forecasting and spending insights module 
 
