@@ -48,7 +48,6 @@ The app started as a small student budgeting tool and evolved into a general-pur
 
 ## 🧠 Built With  
 - **Java 17** — core application logic  
-- **JavaFX 25** — modern GUI toolkit  
 - **SQLite** — embedded local database  
 - **SLF4J** — lightweight logging  
 - **Gradle / jpackage** — build automation and native packaging  
